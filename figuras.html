@@ -12,12 +12,25 @@
         <p>Este es el primer taller del curso practico de JavaScript</p>
     </header>
     <section>
-        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <h2>Calcula el perimetro y area de un cuadrado</h2>
         <form>
-            <label for="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
+            <label for="InputCuadrado">Cuanto mide cada lado de tu cuadrado:</label>
             <input id="InputCuadrado" type="number"/>
             <button type="button" onclick="calcularPerimetroCuadrado()">Calcula el perimetro</button>
             <button type="button" onclick="calcularAreaCuadrado()">Calcula el area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el perimetro y area de un Triangulo</h2>
+        <form>
+            <label for="InputTriangulo">Cuanto mide cada lado de tu triangulo y altura:</label>
+            <input id="InputTriangulo1" type="number"/>
+            <input id="InputTriangulo2" type="number"/>
+            <input id="InputTrianguloBase" type="number"/>
+            <label for="InputAltura">Altura:</label>
+            <input id="InputAltura" type="number"/>
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcula el perimetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcula el area</button>
         </form>
     </section>
     <script src="./figuras.js"></script>
