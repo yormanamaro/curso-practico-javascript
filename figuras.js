@@ -138,3 +138,22 @@ function calcularAreaTriangulo() {
     const areaTrianguloInput = areaTriangulo(value3, value5);
     alert(areaTrianguloInput); 
 }
+
+
+// Aqui interactuamos con HTML CIRCULO
+
+function calcularCircunferenciaCirculo() {
+    const input6 = document.getElementById("InputCirculo");
+    const value6 = Number(input6.value);
+
+    const circunferencia = circunferenciaCirculo(value6);
+    alert(circunferencia); 
+}
+
+function calcularAreaCirculo() {
+    const input7 = document.getElementById("InputCirculo");
+    const value7 = Number(input7.value);
+    
+    const areaCircu = areaCirculo(value7);
+    alert(areaCircu);
+}
